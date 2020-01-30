@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "commitizen": "^4.0.3"
+  },
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.0.2",
+    "husky": "^4.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "name": "oministack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
